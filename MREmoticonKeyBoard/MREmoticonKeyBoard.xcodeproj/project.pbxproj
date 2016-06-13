@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773B38DA1D0E3D44006884C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B38D91D0E3D44006884C8 /* AppDelegate.swift */; };
+		773B38DC1D0E3D44006884C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B38DB1D0E3D44006884C8 /* ViewController.swift */; };
+		773B38DF1D0E3D44006884C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773B38DD1D0E3D44006884C8 /* Main.storyboard */; };
+		773B38E11D0E3D44006884C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773B38E01D0E3D44006884C8 /* Assets.xcassets */; };
+		773B38E41D0E3D44006884C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773B38E21D0E3D44006884C8 /* LaunchScreen.storyboard */; };
+		773B38EF1D0E3D44006884C8 /* MREmoticonKeyBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B38EE1D0E3D44006884C8 /* MREmoticonKeyBoardTests.swift */; };
+		773B38FA1D0E3D44006884C8 /* MREmoticonKeyBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B38F91D0E3D44006884C8 /* MREmoticonKeyBoardUITests.swift */; };
+		773B390D1D0E3DB5006884C8 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 773B39081D0E3DB5006884C8 /* Emoticons.bundle */; };
+		773B390E1D0E3DB5006884C8 /* MREmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B39091D0E3DB5006884C8 /* MREmoticonPackage.swift */; };
+		773B390F1D0E3DB5006884C8 /* MREmoticonTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B390A1D0E3DB5006884C8 /* MREmoticonTextAttachment.swift */; };
+		773B39101D0E3DB5006884C8 /* MREmoticonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B390B1D0E3DB5006884C8 /* MREmoticonViewController.swift */; };
+		773B39111D0E3DB5006884C8 /* MRTextView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773B390C1D0E3DB5006884C8 /* MRTextView+Category.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		773B38EB1D0E3D44006884C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773B38CE1D0E3D44006884C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773B38D51D0E3D44006884C8;
+			remoteInfo = MREmoticonKeyBoard;
+		};
+		773B38F61D0E3D44006884C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 773B38CE1D0E3D44006884C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773B38D51D0E3D44006884C8;
+			remoteInfo = MREmoticonKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		773B38D61D0E3D44006884C8 /* MREmoticonKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MREmoticonKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		773B38D91D0E3D44006884C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		773B38DB1D0E3D44006884C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		773B38DE1D0E3D44006884C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		773B38E01D0E3D44006884C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		773B38E31D0E3D44006884C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		773B38E51D0E3D44006884C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773B38EA1D0E3D44006884C8 /* MREmoticonKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MREmoticonKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		773B38EE1D0E3D44006884C8 /* MREmoticonKeyBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MREmoticonKeyBoardTests.swift; sourceTree = "<group>"; };
+		773B38F01D0E3D44006884C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773B38F51D0E3D44006884C8 /* MREmoticonKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MREmoticonKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		773B38F91D0E3D44006884C8 /* MREmoticonKeyBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MREmoticonKeyBoardUITests.swift; sourceTree = "<group>"; };
+		773B38FB1D0E3D44006884C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773B39081D0E3DB5006884C8 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		773B39091D0E3DB5006884C8 /* MREmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MREmoticonPackage.swift; sourceTree = "<group>"; };
+		773B390A1D0E3DB5006884C8 /* MREmoticonTextAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MREmoticonTextAttachment.swift; sourceTree = "<group>"; };
+		773B390B1D0E3DB5006884C8 /* MREmoticonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MREmoticonViewController.swift; sourceTree = "<group>"; };
+		773B390C1D0E3DB5006884C8 /* MRTextView+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MRTextView+Category.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773B38D31D0E3D44006884C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B38E71D0E3D44006884C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B38F21D0E3D44006884C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		773B38CD1D0E3D44006884C8 = {
+			isa = PBXGroup;
+			children = (
+				773B38D81D0E3D44006884C8 /* MREmoticonKeyBoard */,
+				773B38ED1D0E3D44006884C8 /* MREmoticonKeyBoardTests */,
+				773B38F81D0E3D44006884C8 /* MREmoticonKeyBoardUITests */,
+				773B38D71D0E3D44006884C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		773B38D71D0E3D44006884C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				773B38D61D0E3D44006884C8 /* MREmoticonKeyBoard.app */,
+				773B38EA1D0E3D44006884C8 /* MREmoticonKeyBoardTests.xctest */,
+				773B38F51D0E3D44006884C8 /* MREmoticonKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		773B38D81D0E3D44006884C8 /* MREmoticonKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				773B39071D0E3DB5006884C8 /* MREmoticonView */,
+				773B38D91D0E3D44006884C8 /* AppDelegate.swift */,
+				773B38DB1D0E3D44006884C8 /* ViewController.swift */,
+				773B38DD1D0E3D44006884C8 /* Main.storyboard */,
+				773B38E01D0E3D44006884C8 /* Assets.xcassets */,
+				773B38E21D0E3D44006884C8 /* LaunchScreen.storyboard */,
+				773B38E51D0E3D44006884C8 /* Info.plist */,
+			);
+			path = MREmoticonKeyBoard;
+			sourceTree = "<group>";
+		};
+		773B38ED1D0E3D44006884C8 /* MREmoticonKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				773B38EE1D0E3D44006884C8 /* MREmoticonKeyBoardTests.swift */,
+				773B38F01D0E3D44006884C8 /* Info.plist */,
+			);
+			path = MREmoticonKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		773B38F81D0E3D44006884C8 /* MREmoticonKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				773B38F91D0E3D44006884C8 /* MREmoticonKeyBoardUITests.swift */,
+				773B38FB1D0E3D44006884C8 /* Info.plist */,
+			);
+			path = MREmoticonKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+		773B39071D0E3DB5006884C8 /* MREmoticonView */ = {
+			isa = PBXGroup;
+			children = (
+				773B39081D0E3DB5006884C8 /* Emoticons.bundle */,
+				773B39091D0E3DB5006884C8 /* MREmoticonPackage.swift */,
+				773B390A1D0E3DB5006884C8 /* MREmoticonTextAttachment.swift */,
+				773B390B1D0E3DB5006884C8 /* MREmoticonViewController.swift */,
+				773B390C1D0E3DB5006884C8 /* MRTextView+Category.swift */,
+			);
+			path = MREmoticonView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		773B38D51D0E3D44006884C8 /* MREmoticonKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773B38FE1D0E3D44006884C8 /* Build configuration list for PBXNativeTarget "MREmoticonKeyBoard" */;
+			buildPhases = (
+				773B38D21D0E3D44006884C8 /* Sources */,
+				773B38D31D0E3D44006884C8 /* Frameworks */,
+				773B38D41D0E3D44006884C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MREmoticonKeyBoard;
+			productName = MREmoticonKeyBoard;
+			productReference = 773B38D61D0E3D44006884C8 /* MREmoticonKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		773B38E91D0E3D44006884C8 /* MREmoticonKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773B39011D0E3D44006884C8 /* Build configuration list for PBXNativeTarget "MREmoticonKeyBoardTests" */;
+			buildPhases = (
+				773B38E61D0E3D44006884C8 /* Sources */,
+				773B38E71D0E3D44006884C8 /* Frameworks */,
+				773B38E81D0E3D44006884C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773B38EC1D0E3D44006884C8 /* PBXTargetDependency */,
+			);
+			name = MREmoticonKeyBoardTests;
+			productName = MREmoticonKeyBoardTests;
+			productReference = 773B38EA1D0E3D44006884C8 /* MREmoticonKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		773B38F41D0E3D44006884C8 /* MREmoticonKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773B39041D0E3D44006884C8 /* Build configuration list for PBXNativeTarget "MREmoticonKeyBoardUITests" */;
+			buildPhases = (
+				773B38F11D0E3D44006884C8 /* Sources */,
+				773B38F21D0E3D44006884C8 /* Frameworks */,
+				773B38F31D0E3D44006884C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				773B38F71D0E3D44006884C8 /* PBXTargetDependency */,
+			);
+			name = MREmoticonKeyBoardUITests;
+			productName = MREmoticonKeyBoardUITests;
+			productReference = 773B38F51D0E3D44006884C8 /* MREmoticonKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773B38CE1D0E3D44006884C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "乐浩";
+				TargetAttributes = {
+					773B38D51D0E3D44006884C8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					773B38E91D0E3D44006884C8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 773B38D51D0E3D44006884C8;
+					};
+					773B38F41D0E3D44006884C8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 773B38D51D0E3D44006884C8;
+					};
+				};
+			};
+			buildConfigurationList = 773B38D11D0E3D44006884C8 /* Build configuration list for PBXProject "MREmoticonKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 773B38CD1D0E3D44006884C8;
+			productRefGroup = 773B38D71D0E3D44006884C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				773B38D51D0E3D44006884C8 /* MREmoticonKeyBoard */,
+				773B38E91D0E3D44006884C8 /* MREmoticonKeyBoardTests */,
+				773B38F41D0E3D44006884C8 /* MREmoticonKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		773B38D41D0E3D44006884C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773B38E41D0E3D44006884C8 /* LaunchScreen.storyboard in Resources */,
+				773B390D1D0E3DB5006884C8 /* Emoticons.bundle in Resources */,
+				773B38E11D0E3D44006884C8 /* Assets.xcassets in Resources */,
+				773B38DF1D0E3D44006884C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B38E81D0E3D44006884C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B38F31D0E3D44006884C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773B38D21D0E3D44006884C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773B39101D0E3DB5006884C8 /* MREmoticonViewController.swift in Sources */,
+				773B390F1D0E3DB5006884C8 /* MREmoticonTextAttachment.swift in Sources */,
+				773B39111D0E3DB5006884C8 /* MRTextView+Category.swift in Sources */,
+				773B38DC1D0E3D44006884C8 /* ViewController.swift in Sources */,
+				773B38DA1D0E3D44006884C8 /* AppDelegate.swift in Sources */,
+				773B390E1D0E3DB5006884C8 /* MREmoticonPackage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B38E61D0E3D44006884C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773B38EF1D0E3D44006884C8 /* MREmoticonKeyBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773B38F11D0E3D44006884C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773B38FA1D0E3D44006884C8 /* MREmoticonKeyBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		773B38EC1D0E3D44006884C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773B38D51D0E3D44006884C8 /* MREmoticonKeyBoard */;
+			targetProxy = 773B38EB1D0E3D44006884C8 /* PBXContainerItemProxy */;
+		};
+		773B38F71D0E3D44006884C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 773B38D51D0E3D44006884C8 /* MREmoticonKeyBoard */;
+			targetProxy = 773B38F61D0E3D44006884C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		773B38DD1D0E3D44006884C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773B38DE1D0E3D44006884C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		773B38E21D0E3D44006884C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773B38E31D0E3D44006884C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		773B38FC1D0E3D44006884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		773B38FD1D0E3D44006884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		773B38FF1D0E3D44006884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MREmoticonKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MREmoticonKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		773B39001D0E3D44006884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MREmoticonKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MREmoticonKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		773B39021D0E3D44006884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MREmoticonKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MREmoticonKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MREmoticonKeyBoard.app/MREmoticonKeyBoard";
+			};
+			name = Debug;
+		};
+		773B39031D0E3D44006884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MREmoticonKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MREmoticonKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MREmoticonKeyBoard.app/MREmoticonKeyBoard";
+			};
+			name = Release;
+		};
+		773B39051D0E3D44006884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MREmoticonKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MREmoticonKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MREmoticonKeyBoard;
+			};
+			name = Debug;
+		};
+		773B39061D0E3D44006884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MREmoticonKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qytb.MREmoticonKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MREmoticonKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		773B38D11D0E3D44006884C8 /* Build configuration list for PBXProject "MREmoticonKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773B38FC1D0E3D44006884C8 /* Debug */,
+				773B38FD1D0E3D44006884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773B38FE1D0E3D44006884C8 /* Build configuration list for PBXNativeTarget "MREmoticonKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773B38FF1D0E3D44006884C8 /* Debug */,
+				773B39001D0E3D44006884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		773B39011D0E3D44006884C8 /* Build configuration list for PBXNativeTarget "MREmoticonKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773B39021D0E3D44006884C8 /* Debug */,
+				773B39031D0E3D44006884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		773B39041D0E3D44006884C8 /* Build configuration list for PBXNativeTarget "MREmoticonKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773B39051D0E3D44006884C8 /* Debug */,
+				773B39061D0E3D44006884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773B38CE1D0E3D44006884C8 /* Project object */;
+}
